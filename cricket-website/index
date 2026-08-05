@@ -29,3 +29,123 @@
       </div>
     </div>
   </section>
+
+ <main>
+
+    <!-- ============ 3. MAIN CONTENT: KEY TEAM MEMBERS ============ -->
+    <section class="team-leaders">
+      <h2 class="section-title">Team Leadership</h2>
+      <div class="leaders-grid">
+
+        <div class="leader-card">
+          <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003228_1714596324_pics3.png" alt="Team Captain" />
+          <div class="leader-info">
+            <h3>Arjun Mehta</h3>
+            <p>Captain &amp; Top-Order Batsman</p>
+          </div>
+        </div>
+
+        <div class="leader-card">
+          <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003229_1714596356_pics4.png" alt="Head Coach" />
+          <div class="leader-info">
+            <h3>Coach R. Bannerjee</h3>
+            <p>Head Coach &amp; Strategist</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ 4. SCROLLABLE PLAYERS LIST ============ -->
+    <section class="players-list-section">
+      <h2 class="section-title">Star Players</h2>
+      <ul class="players-list">
+
+        <li class="player-item">
+          <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003230_1714596372_pics5.png" alt="Player 1" />
+          <div class="player-info">
+            <h4>Vikram Sen</h4>
+            <p>Fast Bowler — 187 international wickets</p>
+          </div>
+        </li>
+
+        <li class="player-item">
+          <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003231_1714596390_pics6.png" alt="Player 2" />
+          <div class="player-info">
+            <h4>Rohan Das</h4>
+            <p>All-Rounder — Explosive lower-order hitter</p>
+          </div>
+        </li>
+
+        <li class="player-item">
+          <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003232_1714596401_pics7.png" alt="Player 3" />
+          <div class="player-info">
+            <h4>Karan Iyer</h4>
+            <p>Wicketkeeper-Batsman — Best gloveman in the league</p>
+          </div>
+        </li>
+
+        <li class="player-item">
+          <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003226_1714596295_pics1.png" alt="Player 4" />
+          <div class="player-info">
+            <h4>Sameer Ghosh</h4>
+            <p>Spin Bowler — Master of the doosra</p>
+          </div>
+        </li>
+
+        <li class="player-item">
+          <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000003227_1714596308_pics2.png" alt="Player 5" />
+          <div class="player-info">
+            <h4>Dev Chatterjee</h4>
+            <p>Middle-Order Batsman — Anchor of the innings</p>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+
+    <!-- ============ 5. TABLE OF RANKINGS ============ -->
+    <section class="rankings-section">
+      <h2 class="section-title">Team Rankings</h2>
+      <table class="rankings-table">
+        <thead>
+          <tr>
+            <th>Format</th>
+            <th>Current Rank</th>
+            <th>Points</th>
+            <th>Best Ever Rank</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Test</td>
+            <td>#2</td>
+            <td>112</td>
+            <td>#1</td>
+          </tr>
+          <tr>
+            <td>ODI</td>
+            <td>#1</td>
+            <td>128</td>
+            <td>#1</td>
+          </tr>
+          <tr>
+            <td>T20I</td>
+            <td>#3</td>
+            <td>256</td>
+            <td>#1</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <!-- ============ 6. FOOTER ============ -->
+  <footer class="site-footer">
+    <p>&copy; 2026 Kolkata Cobras Cricket Club. All rights reserved.</p>
+    <p>Eden Gardens Road, Kolkata, West Bengal | contact@kolkatacobras.example</p>
+  </footer>
+
+</body>
+</html>
