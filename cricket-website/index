@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kolkata Cobras | Official Team Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ 1. FIXED HEADER ============ -->
+  <header class="site-header">
+    <h1>KOLKATA COBRAS</h1>
+    <p class="tagline">Strike Fast. Strike Hard.</p>
+  </header>
+
+  <!-- ============ 2. STICKY IMAGE SECTION ============ -->
+  <section class="sticky-banner">
+    <div class="banner-img" style="background-image: url('https://ninjasfiles.s3.amazonaws.com/asset_0000000000003226_1714596295_pics1.png');">
+      <div class="overlay-text">
+        <h3>Home Ground</h3>
+        <p>Eden Gardens, Kolkata</p>
+      </div>
+    </div>
+    <div class="banner-img" style="background-image: url('https://ninjasfiles.s3.amazonaws.com/asset_0000000000003227_1714596308_pics2.png');">
+      <div class="overlay-text">
+        <h3>Season 2026</h3>
+        <p>Chasing the Trophy</p>
+      </div>
+    </div>
+  </section>
