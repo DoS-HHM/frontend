@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <!-- ===================== LEFT SECTION ===================== -->
+    <aside class="sidebar">
+
+      <div class="profile">
+        <img src="profile.jpg" alt="John Doe" class="profile-pic" />
+        <h2 class="profile-name">John Doe</h2>
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#dashboard"><i class="fa-solid fa-list"></i> Dashboard</a></li>
+          <li><a href="#data"><i class="fa-solid fa-tag"></i> Data</a></li>
+          <li><a href="#users"><i class="fa-solid fa-user"></i> Users</a></li>
+          <li><a href="#schedule"><i class="fa-solid fa-calendar"></i> Schedule</a></li>
+          <li><a href="#contact"><i class="fa-solid fa-gear"></i> Contact</a></li>
+        </ul>
+      </nav>
+
+    </aside>
+
+    <!-- ===================== RIGHT SECTION ===================== -->
+    <main class="content">
+
+      <!-- Header -->
+      <header class="top-header" id="dashboard">
+        <h1>DashBoard</h1>
+        <input type="text" class="search-input" placeholder="Search..." />
+      </header>
+
+      <!-- Activity Board -->
+      <section class="activity-board">
+        <div class="activity-card">
+          <h3 class="activity-title">Activities</h3>
+          <p class="activity-date">May-June 2024</p>
+          <img src="activity-chart.png" alt="Activity chart for May and June 2024" class="activity-chart" />
+        </div>
+      </section>
