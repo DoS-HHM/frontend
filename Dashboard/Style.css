@@ -81,3 +81,90 @@ img {
     0 14px 24px rgba(0, 0, 0, 0.28),
     inset 0 1px 0 rgba(255, 255, 255, 0.08);
 }
+
+.profile {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 18px;
+  border: 3px solid #2a2a2a;
+}
+
+.profile-name {
+  font-size: 1.6rem;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.navbar ul li {
+  margin-bottom: 34px;
+}
+
+.navbar ul li a {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 1.15rem;
+  color: #ffffff;
+  transition: color 0.25s ease, padding-left 0.25s ease;
+}
+
+.navbar ul li a i {
+  width: 20px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.navbar ul li a:hover {
+  color: #e2b13c;
+  padding-left: 6px;
+}
+
+/* ==========================================================
+   RIGHT SECTION
+   ========================================================== */
+.content {
+  flex: 1;
+  padding: 20px 30px 20px 5px;
+  min-width: 0;
+}
+
+.section-heading {
+  display: block;
+  width: fit-content;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  margin: 0 auto 24px;
+  padding: 6px 16px;
+  border-radius: 8px;
+  cursor: default;
+  transition: transform 0.25s ease, background-color 0.25s ease,
+    color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.section-heading:hover {
+  transform: scale(1.15);
+  color: #b5811f;
+  background-color: #fff3cf;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.center {
+  text-align: center;
+}
